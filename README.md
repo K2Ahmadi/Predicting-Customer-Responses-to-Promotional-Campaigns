@@ -31,4 +31,4 @@ Next, hyperparameter tuning was performed to find the best combination of hyperp
 
 Once the hyperparameters were optimized, the models were trained on the training data, and their performance was evaluated using the precision-recall metric. Precision is the ratio of true positives to the sum of true positives and false positives, while recall is the ratio of true positives to the sum of true positives and false negatives. 
 
-Overall, this process of training the model, hyperparameter tuning, and evaluating the model using precision-recall was repeated for each algorithm and dataset to obtain the best-performing model for predicting customer responses to promotional campaigns.
+Overall, this process of training the model, hyperparameter tuning, and evaluating the model using precision-recall was repeated for each algorithm and dataset to obtain the best-performing model for predicting customer responses to promotional campaigns. 
