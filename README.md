@@ -13,7 +13,7 @@ The purpose of feature engineering is to create new relevant features from exist
 
 Two new datasets were created from the original dataset. The first dataset captures customers' yearly spending, while the second dataset captures their monthly spending. The features calculated for yearly spending include customer spending sum, mean, standard deviation, variance, maximum, minimum, and count. All of these new features were then pivoted to arrange each year alongside the new features as the columns of the DataFrame. This pivot was performed to ensure that the model could be easily trained on the dataset. Please refer to the picture below for the final DataFrame:
 
-![My Image](Images/Annual Features.png![image](https://user-images.githubusercontent.com/102554466/225148178-6a8ce664-d0c8-4ad0-82f7-b645dbce9961.png)
+![](Images/Annual Features.png)
 
 Similar features were also generated for the DataFrame that records customers' monthly spending, with the inclusion of 3, 6, and 12-month rolling windows that capture each of the new features generated. Please refer to the picture below for the final monthly customer spending DataFrame:
 
