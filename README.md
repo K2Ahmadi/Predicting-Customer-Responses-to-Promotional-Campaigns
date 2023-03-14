@@ -5,7 +5,7 @@ The goal of this project is to predict how customers will respond (0 for negativ
 1.	Feature engineering
 2.	Model development and testing
 
-Note: This project was implemented using PySpark.
+Note: This project was implemented using PySpark on the Databricks platform.
 
 ## Stage 1: Feature engineering
 
