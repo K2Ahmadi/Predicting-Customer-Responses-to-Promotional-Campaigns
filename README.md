@@ -17,11 +17,14 @@ Two new datasets were created from the original dataset. The first dataset captu
 
 Similar features were also generated for the DataFrame that records customers' monthly spending, with the inclusion of 3, 6, and 12-month rolling windows that capture each of the new features generated. Please refer to the picture below for the final monthly customer spending DataFrame:
 
-[Insert Image]
+![](Images/Monthly_Features.png)
 
 ## Stage 2: Model development and testing
 
 Once the feature engineering stage was completed, I proceeded to analyze the classification problem using two separate datasets (annual and monthly) and three different algorithms, as depicted in the image below.
+
+![](Images/Project_Workflow.png)
+
 To train the machine learning models, the data was first divided into training and testing sets using the train-test split method. The training set was used to train the model, while the testing set was utilized to evaluate the model's performance on new, unseen data.
 
 Next, hyperparameter tuning was performed to find the best combination of hyperparameters for each model. This involved testing various hyperparameters for each algorithm to determine the optimal settings that would produce the best results.
