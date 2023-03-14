@@ -7,7 +7,7 @@ The goal of this project is to predict how customers will respond (0 for negativ
 
 Note: This project was implemented using PySpark.
 
-# Stage 1: Feature engineering
+## Stage 1: Feature engineering
 
 The purpose of feature engineering is to create new relevant features from existing data that can be used to improve the performance of machine learning models. In this case, various features were created using a simple transaction dataset that only contains customer ID, transaction date, and transaction amount. These features will later be used as the input variable for 3 different machine learning models: Logistic Regression, Decision Tree, and Random Forest Classifier. 
 
@@ -19,7 +19,7 @@ Similar features were also generated for the DataFrame that records customers' m
 
 [Insert Image]
 
-# Stage 2: Model development and testing
+## Stage 2: Model development and testing
 
 Once the feature engineering stage was completed, I proceeded to analyze the classification problem using two separate datasets (annual and monthly) and three different algorithms, as depicted in the image below.
 To train the machine learning models, the data was first divided into training and testing sets using the train-test split method. The training set was used to train the model, while the testing set was utilized to evaluate the model's performance on new, unseen data.
